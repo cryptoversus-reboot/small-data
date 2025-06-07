@@ -8,6 +8,39 @@ SmallData simplifies asset discovery and management by connecting to multiple cl
 
 Built for both enterprise organizations and individuals, SmallData creates a bridge between traditional cloud services and decentralized storage systems.
 
+## Hybrid Architecture Approach
+
+SmallData adopts a hybrid approach across multiple dimensions:
+
+- **Hybrid Data Storage**
+  - Integrates with traditional cloud storage (AWS S3, Google Drive, Dropbox)
+  - Works with on-premise storage systems
+  - Supports personal device storage
+  - Connects with emerging decentralized storage protocols (IPFS, Filecoin, Arweave)
+
+- **Hybrid Indexing Models**
+  - Text-based indexing for documents and metadata
+  - AI vision models for image content recognition
+  - Audio fingerprinting for media files
+  - Graph-based indexing for relationship mapping
+  - Semantic vector embeddings for conceptual search
+
+- **Hybrid Database Technologies**
+  - Relational databases for structured metadata
+  - Document databases for flexible schema storage
+  - Vector databases for similarity and semantic search
+  - Graph databases for relationship querying
+  - Time-series databases for historical tracking
+
+- **Hybrid Decentralized Networks**
+  - Traditional blockchains (Ethereum, Solana)
+  - Directed acyclic graph (DAG) networks
+  - Proof-of-storage networks
+  - Federated consensus mechanisms
+  - Custom private consensus networks for enterprise deployments
+
+This hybrid approach enables SmallData to optimize for specific use cases while maintaining flexibility across different storage environments and access patterns.
+
 ## MVP Requirements
 
 ### Core Functionality
@@ -101,10 +134,10 @@ Built for both enterprise organizations and individuals, SmallData creates a bri
    - User authentication
    - Preference management
 
-## Implementation Timeline
+## Implementation
 
 ### Phase 1: Foundation
-- Set up FlexNet development environment
+- Set up FlexNet project structure
 - Implement basic cloud connector architecture
 - Create initial database schema for local testing
 - Develop authentication flows
@@ -140,6 +173,7 @@ Built for both enterprise organizations and individuals, SmallData creates a bri
 
 - **Frontend**: FlexNet JSX Framework
 - **Backend**: Functional JavaScript services
-- **Storage**: Blockchain networks (specific implementations TBD)
+- **Storage**: Multiple blockchain and decentralized storage networks
+- **Databases**: Hybrid approach combining relational, document, vector, and graph databases
 - **Cloud Connectors**: Provider-specific APIs
-- **AI/ML**: TensorFlow.js or similar (for asset classification)
+- **AI/ML**: Multiple models for text, image, and audio analysis
